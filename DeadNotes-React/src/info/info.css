@@ -1,0 +1,88 @@
+.register-button{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-41%,-68%);
+    border: 2px solid #d35400;
+    border-radius: 50%;
+    height: 14%;
+    width: 7%;
+    background: #393e46;
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+    overflow: hidden;
+    /* position: relative; */
+    opacity: 0;
+}
+
+.info-page img {
+    width: 100%;
+    height: auto;
+}
+
+.info-page  .info-header {
+    text-align: center;
+    padding: 32px;
+}
+
+.info-page  .info-page .row {
+    display: -ms-flexbox;
+    /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.info-page  .column {
+    -ms-flex: 50%;
+    /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.info-page .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+.info-page .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 70px;
+    background-color: grey;
+}
+
+.info-page .container {
+    position: relative;
+    width: 100%;
+}
+
+.info-page .container:hover .overlay {
+    opacity: 0.75;
+}
+
+.info-page .text {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.info-page .image {
+    display: block;
+    width: 100%;
+    height: auto;
+}

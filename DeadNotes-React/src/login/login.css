@@ -1,0 +1,130 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    /* overflow-x: hidden; */
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    overflow: hidden;
+
+}
+
+.logo:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+
+.links a {
+    margin-left: auto;
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid rgb(54, 54, 54);
+}
+.user input {
+    margin-left: 10%;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #738598;
+    background-color: transparent;
+}
+.sub input{
+    margin-left: 10%;
+    width: 80%;
+}
+
+
+.login form div {
+    position: relative;
+}
+
+.login form div label {
+    margin-left: 10%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #738598;
+    transition: .5s;
+    pointer-events: none;
+
+}
+
+.user input:focus~label,
+.user input:valid~label {
+    top: -15px;
+    left: 0;
+    color: #0079BF;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.user input:focus,
+.user input:valid {
+    border-bottom: 2px solid #0079BF;
+}
+
+
+.login form a {
+    margin-left: 10%;
+}
+
+.login a {
+    color: rgb(54, 54, 54) !important;
+    transition: transform 0.5s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0079BF;
+    transform: scale(1.10);
+}
+
+
+.sing-in {
+    margin-left: 10%;
+    font-family: 'Fredericka the Great', cursive;
+}
+.register h3{
+    font-family: 'Fredericka the Great', cursive;
+}
+.alert {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.copy {
+    font-size: 150%;
+}

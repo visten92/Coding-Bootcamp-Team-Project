@@ -1,0 +1,70 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body{
+background-image: url('/img/board.png') !important;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+
+body{
+    width: 100%;
+}
+.container{
+    margin-top: 8%;
+}
+
+.home {
+    width: 200px;
+    height: 200px;
+    
+}
+
+a {
+    /* color: #000000 !important; */
+    transition: transform 0.5s;
+}
+
+a:hover {
+    /* text-decoration: none; */
+    color: #2d5c7f;
+    transform: scale(1.10);
+}
+
+.links a {
+    margin-left: auto;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid rgb(54, 54, 54);
+}
+
+.nav-link{
+    border-bottom: 2px solid transparent;
+}
+
+
+.logo {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    overflow: hidden;
+
+}
+
+.logo:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
